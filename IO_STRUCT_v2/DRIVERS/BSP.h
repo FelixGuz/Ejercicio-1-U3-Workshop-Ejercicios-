@@ -25,9 +25,15 @@
 #include "DRIVERS\gpio_2021.h"
 
 /* Definición de botones con su respectivo puerto. */
-
+#define PUSH_BOTON_1    GPIO_PIN1
+#define PUSH_BOTON_1_PORT    GPIO_PORT_P1
 
 /* Definición de led's plasmados en tarjeta con su respectivo puerto. */
+#define LED_RGB_RED     GPIO_PIN0
+#define LED_RGB_GREEN   GPIO_PIN1
+#define LED_RGB_BLUE    GPIO_PIN2
+#define RGB_PORT        GPIO_PORT_P2
 
-
+#define LED_ROJO        GPIO_PIN0
+#define LED_ROJO_PORT   GPIO_PORT_P1
 #endif /* BSP_H_ */
