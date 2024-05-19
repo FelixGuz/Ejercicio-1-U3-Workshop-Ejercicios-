@@ -61,7 +61,6 @@
 /************************************************
     PROTOTIPO DE FUNCIONES
 ************************************************/
-
 extern void GPIO_setPinEntradaconPullUp(uint_fast8_t selectedPort,     uint_fast16_t selectedPins);
 extern void GPIO_setPinSalida(uint_fast8_t selectedPort,                      uint_fast8_t selectedPins);
 
